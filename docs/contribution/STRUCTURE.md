@@ -3,11 +3,12 @@ sidebar: auto
 ---
 
 # Project structure
-Short description of project structure.
+
+This project is structured as a [Monorepo](https://en.wikipedia.org/wiki/Monorepo) so that we can develop and publish packages separately.
 
 ## Packages description
 
-They are located in ./packages and can be developing and published separately.
+They are located in ./packages
 
 1. **cli** [_@shopware-pwa/cli_](https://www.npmjs.com/package/@shopware-pwa/cli) - A CLI tool for creating an instance of Shopware PWA projects.
 2. **commons** [_@shopware-pwa/commons_](https://www.npmjs.com/package/@shopware-pwa/commons) - A collection of all necessary interfaces shared across the project's ecosystem.
